@@ -8,10 +8,10 @@
 - Programming Skills : Java, HTML, CSS, JavaScript, NodeJS
 - Design Skills : AdobeXD, Figma
 
-![PasinduLakshankudaligama](assets/img/1img.jpg)
+![Kusal Kualarathne](assets/img/1img.jpg)
 Format: ![Alt Text]("https://www.facebook.com/photo.php?fbid=1316465092140856&set=pb.100013321332998.-2207520000..&type=3")
 
-![PasinduLakshankudaligama](assets/img/2img.jpg)
+![Kusal Kualarathne](assets/img/2img.jpg)
 Format: ![Alt Text]("https://www.facebook.com/photo.php?fbid=1316465092140856&set=pb.100013321332998.-2207520000..&type=3")
 
 <h2>Overview My Profile🕵️‍♂️ </h2>
@@ -47,15 +47,15 @@ Format: ![Alt Text]("https://www.facebook.com/photo.php?fbid=1316465092140856&se
 
 
 ## :link: **Links**
-- Website : [PasinduLakshanKudaigama](https://pasindulakshankudaligama.000webhostapp.com/)
-- GitHub-Pages : [PasinduLakshanKudaligama.github.io](https://github.com/pasindulakshankudaligama)
-- Site Map : [Click Here](https://www.gloomaps.com/zkW7hEsEkx)
-- Wireframe : [Click Here](https://wireframe.cc/0EsPjQ)
-- Mockup : [Click Here](https://www.figma.com/file/ODNGUckoFcQyn5RFkvqQfQ/My-Web?node-id=0%3A1)
+- Website : [Kusal Kualarathne ](https://ronin99.000webhostapp.com/)
+- GitHub-Pages : [Kusal Kualarathne .github.io](https://github.com/RONINNNN)
+- Site Map : [Click Here](https://www.gloomaps.com/zbfFcZDfMj)
+- Wireframe : [Click Here](https://wireframe.cc/aH9uAM )
+- Mockup : [Click Here](https://www.figma.com/proto/S3WcaQz4PwxQy3gvERcQoB/Untitled?page-id=0%3A1&node-id=2%3A2&starting-point-node-id=2%3A2)
 
 <p align="center">
-<a href="https://github.com/pasindulakshankudaligama/Readme-File-Styles">
-Pasindu Lakshan Kudaligama Readme Profile Styles here ! ✌
+<a href="https://github.com/Kusalkularathne/Readme-File-Styles">
+Kusal Kularathne Readme Profile Styles here ! ✌
 </a>
 </p>
 
