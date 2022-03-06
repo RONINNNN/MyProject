@@ -4,15 +4,15 @@
 ### 🅿🆁🅾🅵🅸🅻🅴 🆅🅸🅴🆆🆂 🕵️‍♂️
 - My primary coding language : Java 🧒
 - Graduate in Software Engineering at IJSE 👨‍🎓
-- Proud to be Sripalian. 💙🧡
+- Proud to be Maryans. 💙🧡
 - Programming Skills : Java, HTML, CSS, JavaScript, NodeJS
 - Design Skills : AdobeXD, Figma
 
 ![Kusal Kualarathne](assets/img/1img.jpg)
-Format: ![Alt Text]("https://www.facebook.com/photo.php?fbid=1316465092140856&set=pb.100013321332998.-2207520000..&type=3")
+Format: ![]("https://www.facebook.com/photo.php?fbid=1316465092140856&set=pb.100013321332998.-2207520000..&type=3")
 
 ![Kusal Kualarathne](assets/img/2img.jpg)
-Format: ![Alt Text]("https://www.facebook.com/photo.php?fbid=1316465092140856&set=pb.100013321332998.-2207520000..&type=3")
+Format: ![]("https://www.facebook.com/photo.php?fbid=1316465092140856&set=pb.100013321332998.-2207520000..&type=3")
 
 <h2>Overview My Profile🕵️‍♂️ </h2>
 

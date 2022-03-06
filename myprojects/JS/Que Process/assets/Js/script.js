@@ -1,5 +1,5 @@
 var boxId = [$('#b1'),$('#b2'),$('#b3'),$('#b4'),$('#b5'),$('#b6')];
-var color = ["beige", "lightpink", "red", "green", "blue", "yellow"];
+var color = ["beige", "pink", "red", "green", "blue", "yellow"];
 
 setInterval(assignColor,"500");
 
