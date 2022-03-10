@@ -37,8 +37,8 @@
 
                 </ul>
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <input id="txt-cus-search" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button id="button-cus-search" class="btn btn-outline-success" type="submit">Search</button>
                 </form>
             </div>
         </div>
@@ -56,14 +56,14 @@
     <div class="row g-3 align-items-center pb-3 justify-content-between">
 
         <div class="col-12 col-md-5 col-lg-4 col-xl-6">
-            <button type="button" class="btn btn-danger mt-2" data-bs-toggle="modal"
+            <button id="cus-delete" type="button" class="btn btn-danger mt-2" data-bs-toggle="modal"
                     data-bs-target="#removeCustomer"><i class="bi bi-person-plus-fill m-2"></i>Delete Customer
             </button>
-            <button type="button" class="btn btn-secondary mt-2"><i class="bi bi-backspace m-2"></i>Clear</button>
-            <button id="btnCusSave" type="button" class="btn btn-success mt-2" data-bs-toggle="modal"
+            <button id="clear-btn-cus" type="button" class="btn btn-secondary mt-2"><i class="bi bi-backspace m-2"></i>Clear</button>
+            <button id="btnAddCus" type="button" class="btn btn-success mt-2" data-bs-toggle="modal"
                     data-bs-target="#addCustomer"><i class="bi bi-person-plus-fill m-2"></i>Add Customer
             </button>
-            <button id="btnCusUpdate" type="button" class="btn btn-warning mt-2" data-bs-toggle="modal"
+            <button id="btnUpdateCus" type="button" class="btn btn-warning mt-2" data-bs-toggle="modal"
                     data-bs-target="#UpdateCustomer"><i class="bi bi-person-plus-fill m-2"></i>Update Customer
             </button>
         </div>
@@ -71,23 +71,32 @@
 
     <div class="row">
         <div class="mb-3 col-6">
-            <label class="form-label" for="Cid">Customer Id</label>
-            <input type="text" class="form-control" id="Cid" placeholder="Customer Id">
+            <label class="form-label" for="cusIdAdd">Customer Id</label>
+
+            <input type="text" class="form-control" id="cusIdAdd" placeholder="Customer Id">
+            <small id="error1">* Customer ID is a required field, Pattern C00-001</small>
+
 
         </div>
         <div class="mb-3 col-6">
-            <label class="form-label" for="Cname">Customer Name</label>
-            <input type="text" class="form-control" id="Cname" placeholder="Customer Name">
+            <label class="form-label" for="cusNameAdd">Customer Name</label>
+            <input type="text" class="form-control" id="cusNameAdd" placeholder="Customer Name">
+            <small id="error2">* Customer Name is required field, Min 5 & Max 10</small>
+
 
         </div>
         <div class="mb-3 col-6">
-            <label class="form-label" for="Caddress">Customer Address</label>
-            <input type="text" class="form-control" id="Caddress" placeholder="Customer Address">
+            <label class="form-label" for="cusAddressAdd">Customer Address</label>
+            <input type="text" class="form-control" id="cusAddressAdd" placeholder="Customer Address">
+            <small id="error3">* Customer Address is required field, Min 5</small>
+
 
         </div>
         <div class="mb-3 col-6">
-            <label class="form-label" for="Ctele">Customer Salary</label>
-            <input type="text" class="form-control" id="Ctele" placeholder="Customer Salary">
+            <label class="form-label" for="cusSalaryAdd">Customer Salary</label>
+            <input type="text" class="form-control" id="cusSalaryAdd" placeholder="Customer Salary">
+            <small id="error4">* Customer Address is required field, Ex:500.00</small>
+
 
         </div>
 
@@ -105,25 +114,8 @@
                         <th scope="col">Customer Salary</th>
                     </tr>
                     </thead>
-                    <tbody>
-                    <tr>
-                        <th scope="row">c001</th>
-                        <td>Pasindu</td>
-                        <td>Bulathsinhala</td>
-                        <td>20000</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">c002</th>
-                        <td>Lakmal</td>
-                        <td>Warakapola</td>
-                        <td>10000</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">c003</th>
-                        <td> Kusal</td>
-                        <td> Kandy</td>
-                        <td>30000</td>
-                    </tr>
+                    <tbody id="cusTblBody">
+
                     </tbody>
                 </table>
 
@@ -424,6 +416,10 @@
 
 <script src="assets/js/script.js">
 </script>
+<script src="assets/jQuery/jquery-3.6.0.min.js"></script>
+
 <script src="db/DB.js"> </script>
+<script src="controller/CustomerController.js"></script>
+<script src="model/CustomerDTO.js"></script>
 </body>
 </html>
