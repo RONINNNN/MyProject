@@ -1,9 +1,8 @@
-function CustomerDTO(id,name,address,salary,btn) {
+function CustomerDTO(id,name,address,salary) {
     var __cID =id;
     var __cName = name;
     var __cAddress = address;
     var __cSalary =salary;
-    var __btn = btn;
 
     this.getCustomerID = function () {
         return __cID;
@@ -37,11 +36,5 @@ function CustomerDTO(id,name,address,salary,btn) {
         __cSalary=salary;
     }
 
-    this.getCustomerbtn = function () {
-        return __btn;
-    }
 
-    this.setCustomerbtn = function (btn) {
-        __btn=btn;
-    }
 }
