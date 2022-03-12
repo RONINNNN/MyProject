@@ -56,7 +56,7 @@ function loadAllItemIds() {
 /*load item data to text fields*/
 function selectedItem(ItemId){
     for (const i in itemDB){
-        if (itemDB[i].getItemId()==ItemId) {
+        if (itemDB[i].getItemCode()==ItemId) {
             let element = itemDB[i];
             $("#Order-itemName").val(element.getItemName());
             $("#qtyOnHand").val(element.getItemQty());
@@ -96,8 +96,8 @@ function generateOrderId() {
 function setDate() {
     let d = new Date();
     let dd = d.toISOString().split("T")[0].split("-");
-    $("#txtDate").val(dd[0]+"-"+dd[1]+"-"+dd[2]);
-    $("#txtDate").text(dd[0]+"-"+dd[1]+"-"+dd[2]);
+    $("#iDate").val(dd[0]+"-"+dd[1]+"-"+dd[2]);
+    $("#iDate").text(dd[0]+"-"+dd[1]+"-"+dd[2]);
 }
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
