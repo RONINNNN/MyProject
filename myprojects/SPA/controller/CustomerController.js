@@ -70,6 +70,7 @@ function addCustomer() {
         loadAllCustomers(); //load all customers
         clearFields()   //Clear Input Fields
         generateId();
+        loadAllCustomerIds();
     });
 }
 // Customer Add Function - End

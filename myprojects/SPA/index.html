@@ -218,7 +218,7 @@
                             <div class="row">
                                 <div class="col">
                                     <label for="oId" class="form-label fw-bold">Order ID:</label>
-                                    <input type="text" class="form-control" id="oId" placeholder="O001">
+                                    <input type="text" class="form-control" id="oId" placeholder="">
                                 </div>
                                 <div class="col">
                                     <label for="iDate" class="form-label fw-bold">Date:</label>
@@ -229,25 +229,22 @@
                                 <div class="col">
                                     <label for="idCmb1" class="form-label fw-bold">Customer ID:</label>
                                     <select class="form-select" id="idCmb1">
-                                        <option selected>C001</option>
-                                        <option value="1">C001</option>
-                                        <option value="2">C002</option>
-                                        <option value="3">C003</option>
+
                                     </select>
                                 </div>
                                 <div class="col">
                                     <label for="cusName" class="form-label fw-bold">Customer Name:</label>
-                                    <input type="text" class="form-control" id="cusName" placeholder="Sri">
+                                    <input type="text" class="form-control" id="cusName" placeholder="">
                                 </div>
                             </div>
                             <div class="row mt-3 mb-3">
                                 <div class="col">
                                     <label for="salary" class="form-label fw-bold">Salary:</label>
-                                    <input type="number" class="form-control" id="salary" placeholder="100000">
+                                    <input type="text" class="form-control" id="salary" placeholder="">
                                 </div>
                                 <div class="col">
                                     <label for="address" class="form-label fw-bold">Address:</label>
-                                    <input type="text" class="form-control" id="address" placeholder="Kandy">
+                                    <input type="text" class="form-control" id="address" placeholder="">
                                 </div>
                             </div>
                         </div>
@@ -266,32 +263,29 @@
                                 <div class="col">
                                     <label for="idCmb2" class="form-label fw-bold">Item:</label>
                                     <select class="form-select" id="idCmb2">
-                                        <option selected>I001</option>
-                                        <option value="1">I001</option>
-                                        <option value="2">I002</option>
-                                        <option value="3">I003</option>
+
                                     </select>
                                 </div>
                                 <div class="col">
                                     <label for="itemName" class="form-label fw-bold">Item Name:</label>
-                                    <input type="text" class="form-control" id="Order-itemName" placeholder="Mouse">
+                                    <input type="text" class="form-control" id="Order-itemName" placeholder="">
                                 </div>
                             </div>
                             <div class="row mt-3">
 
                                 <div class="col">
                                     <label for="qtyOnHand" class="form-label fw-bold">Qty On Hand:</label>
-                                    <input type="number" class="form-control" id="qtyOnHand" placeholder="100">
+                                    <input type="number" class="form-control" id="qtyOnHand" placeholder="">
                                 </div>
                                 <div class="col">
                                     <label for="price" class="form-label fw-bold">Price:</label>
-                                    <input type="text" class="form-control" id="price" placeholder="2000">
+                                    <input type="text" class="form-control" id="price" placeholder="">
                                 </div>
                             </div>
                             <div class="row mt-3">
                                 <div class="col">
                                     <label for="oQty" class="form-label fw-bold">Order Quantity:</label>
-                                    <input type="number" class="form-control" id="oQty" placeholder="1">
+                                    <input type="number" class="form-control" id="oQty" placeholder="">
                                 </div>
                             </div>
                             <div class="row mt-3 mb-1">
@@ -312,7 +306,7 @@
                                         Total :
                                     </p>
                                     <p class="h2 d-inline">
-                                        2000 LKR
+
                                     </p>
                                 </div>
                             </div>
@@ -322,7 +316,7 @@
                                         SubTotal :
                                     </p>
                                     <p class="h2 d-inline">
-                                        1800 LKR
+
                                     </p>
                                 </div>
                             </div>
@@ -330,18 +324,18 @@
 
                                 <div class="col">
                                     <label for="cash1" class="form-label fw-bold">Cash:</label>
-                                    <input type="text" class="form-control" id="cash1" placeholder="5000">
+                                    <input type="text" class="form-control" id="cash1" placeholder="">
                                 </div>
                                 <div class="col">
                                     <label for="dis" class="form-label fw-bold">Discount:</label>
-                                    <input type="number" class="form-control" id="dis" placeholder="10">
+                                    <input type="number" class="form-control" id="dis" placeholder="">
                                 </div>
                             </div>
                             <div class="row mt-3">
 
                                 <div class="col">
                                     <label for="cash" class="form-label fw-bold">Balance:</label>
-                                    <input type="text" class="form-control" id="cash" placeholder="3200">
+                                    <input type="text" class="form-control" id="cash" placeholder="">
                                 </div>
                             </div>
                             <div class="row mt-3 mb-1">
@@ -385,7 +379,9 @@
 <script src="db/DB.js"> </script>
 <script src="controller/CustomerController.js"></script>
 <script src="model/CustomerDTO.js"></script>
-<script src="model/ItemDTO.js"></script>
 <script src="controller/ItemController.js"></script>
+<script src="model/ItemDTO.js"></script>
+<script src="controller/OrderController.js"></script>
+<script src="model/OrderDTO.js"></script>
 </body>
 </html>
