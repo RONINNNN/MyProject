@@ -26,7 +26,7 @@ function addItem() {
             __price: itemPrice
         } */
 
-        var itemObj = new ItemDTO(itemId,itemName,itemQty,itemPrice)
+        var itemObj = new ItemDTO(itemId,itemName,itemPrice,itemQty)
 
         itemDB.push(itemObj);
         console.log(itemDB);

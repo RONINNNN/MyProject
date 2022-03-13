@@ -1,10 +1,10 @@
-function OrderDTO(orderId,itemId,customerId,date,discount,total){
+function OrderDTO(orderId,customerId,date,discount,total,subTotal){
     var oId=orderId;
-    var iId=itemId;
     var cId=customerId;
     var date=date;
     var discount=discount;
     var total=total;
+    var subTotal=subTotal;
 
     this.setOrderId =function (orderId){
         oId=orderId;
@@ -13,12 +13,6 @@ function OrderDTO(orderId,itemId,customerId,date,discount,total){
         return oId;
     }
 
-    this.setItemId=function (itemId){
-        iId=itemId;
-    }
-    this.getItemId=function (){
-        return iId;
-    }
 
     this.setCustomerId =function (customerId){
         oId=customerId;
@@ -46,5 +40,12 @@ function OrderDTO(orderId,itemId,customerId,date,discount,total){
     }
     this.getTotal=function (){
         return total;
+    }
+
+    this.setSubTotal =function (subTotal){
+        subTotal=subTotal;
+    }
+    this.getSubTotal=function (){
+        return subTotal;
     }
 }
